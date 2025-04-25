@@ -2,6 +2,7 @@ package com.pablovns.springboot.handler;
 
 import com.pablovns.springboot.enums.ResponseStatus;
 import com.pablovns.springboot.exceptions.BusinessException;
+import jakarta.annotation.Resource;
 import org.springframework.cglib.proxy.UndeclaredThrowableException;
 import org.springframework.context.MessageSource;
 import org.springframework.http.HttpHeaders;
@@ -15,7 +16,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 
 @RestControllerAdvice
 public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
-    @jakarta.annotation.Resource
+    @Resource
     private MessageSource messageSource;
 
     private HttpHeaders headers() {
