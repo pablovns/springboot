@@ -18,22 +18,22 @@ public class UsuarioController {
     }
 
     @GetMapping
-    public List<Usuario> listarUsuarios() {
+    public List<Usuario> findAll() {
         return usuarioRepository.findAll();
     }
 
     @GetMapping("/{id}")
-    public Usuario encontrarPorId(@PathVariable Integer id) {
+    public Usuario findById(@PathVariable Integer id) {
         return usuarioRepository.findById(id).orElse(null);
     }
 
     @PostMapping
-    public Usuario criarUsuario(@RequestBody Usuario usuario) {
+    public Usuario create(@RequestBody Usuario usuario) {
         return usuarioRepository.save(usuario);
     }
 
     @DeleteMapping("/{id}")
-    public void deletarPorId(@PathVariable Integer id) {
+    public void delete(@PathVariable Integer id) {
         usuarioRepository.deleteById(id);
     }
 }
