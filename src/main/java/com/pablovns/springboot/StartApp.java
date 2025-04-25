@@ -1,6 +1,6 @@
-package com.pablovns.primeirospassos;
+package com.pablovns.springboot;
 
-import com.pablovns.primeirospassos.repository.UsuarioRepository;
+import com.pablovns.springboot.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

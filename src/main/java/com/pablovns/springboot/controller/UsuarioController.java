@@ -1,7 +1,7 @@
-package com.pablovns.primeirospassos.controller;
+package com.pablovns.springboot.controller;
 
-import com.pablovns.primeirospassos.model.Usuario;
-import com.pablovns.primeirospassos.repository.UsuarioRepository;
+import com.pablovns.springboot.model.Usuario;
+import com.pablovns.springboot.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

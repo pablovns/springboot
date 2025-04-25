@@ -1,6 +1,6 @@
-package com.pablovns.primeirospassos.repository;
+package com.pablovns.springboot.repository;
 
-import com.pablovns.primeirospassos.model.Usuario;
+import com.pablovns.springboot.model.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

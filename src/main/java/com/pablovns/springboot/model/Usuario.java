@@ -1,4 +1,4 @@
-package com.pablovns.primeirospassos.model;
+package com.pablovns.springboot.model;
 
 import jakarta.persistence.*;
 import lombok.*;
