@@ -1,4 +1,4 @@
-package com.pablovns.primeirospassos.util;
+package com.pablovns.springboot.util;
 
 import java.util.concurrent.ThreadLocalRandom;
 

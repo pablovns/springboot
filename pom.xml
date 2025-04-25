@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.pablovns</groupId>
-    <artifactId>primeirospassos</artifactId>
+    <artifactId>springboot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>primeirospassos</name>
-    <description>primeirospassos</description>
+    <name>springboot</name>
+    <description>Projeto do módulo de Spring Boot do bootcamp Java Cloud Native</description>
     <url/>
     <licenses>
         <license/>
@@ -63,6 +63,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>2.4.0</version>
         </dependency>
     </dependencies>
 
