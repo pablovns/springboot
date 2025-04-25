@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="PrimeirospassosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+  <configuration default="false" name="SpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
     <module name="springboot" />
     <option name="SPRING_BOOT_MAIN_CLASS" value="com.pablovns.springboot.SpringbootApplication" />
     <method v="2">
