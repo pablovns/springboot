@@ -1,4 +1,4 @@
-package com.pablovns.springboot.model;
+package com.pablovns.springboot.model.usuario;
 
 import jakarta.persistence.*;
 import lombok.*;
